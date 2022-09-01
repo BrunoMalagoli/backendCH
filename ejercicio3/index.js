@@ -45,7 +45,6 @@ class Contenedor {
           }
         }
       );
-      console.log(allContent);
       return allContent;
     } catch {
       console.error(Error());
@@ -104,7 +103,7 @@ const prod3 = {
 // container.save(prod2);
 // container.save(prod3);
 //container.getAll();
-container.getById(1);
+//container.getById(1);
 //container.deleteById(1);
 //container.deleteAll();
 
